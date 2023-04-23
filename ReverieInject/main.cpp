@@ -53,7 +53,7 @@ bool DownloadDllFromUrlAndInject(const char* url, const wchar_t* filePath, const
 }
 
 int main() {
-    const char* url = "https://github.com/whoskanji/ReverieYUHR/raw/main/Reverie.dll";
+    const char* url = "https://github.com/whoskanji/ReverieYUHR/releases/download/2.0/Reverie.dll";
 
     char userProfile[MAX_PATH];
     size_t len;
